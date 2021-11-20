@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Navbar = () => {
   return (
-    <nav style={{display: "flex", justifyContent: "space-between"}}>
+    <nav style={{display: "flex", justifyContent: "flex-start"}}>
       <div className="tr">
         <p className="f2 black dim b underline-hover pa2 br3 pointer" style={{paddingLeft: "20px"}}>DRAKESPEARE</p>
       </div>
