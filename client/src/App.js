@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       { !showChat ? (
-        <div className="joinChatContainer">
+        <div className="joinChatContainer shadow-5">
           <h3>Join a chat</h3>
           <input
             type="text"
