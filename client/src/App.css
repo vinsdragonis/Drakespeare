@@ -142,7 +142,12 @@ body {
 }
 
 .message-meta #author {
-  margin-left: 10px;
+  margin: 0 5px 0 5px;
+  font-weight: bold;
+}
+
+.message-meta #time {
+  margin: 0 10px 0 10px;
   font-weight: bold;
 }
 
