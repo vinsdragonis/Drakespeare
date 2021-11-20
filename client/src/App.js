@@ -20,11 +20,12 @@ function App() {
   return (
     <div className="App">
       { !showChat ? (
-        <div className="joinChatContainer shadow-5">
+        <div className="joinChatContainer shadow-5 tc">
           <h3>Join a chat</h3>
           <input
             type="text"
             placeholder="Name"
+            className="tc"
             onChange={(event) => {
               setUsername(event.target.value)
             }}
@@ -32,6 +33,7 @@ function App() {
           <input
             type="text"
             placeholder="Room ID"
+            className="tc"
             onChange={(event) => {
               setRoom(event.target.value)
             }}

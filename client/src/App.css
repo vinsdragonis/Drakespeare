@@ -20,9 +20,12 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
 .joinChatContainer {
+  width: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  background: #212121;
+  padding: 40px;
 }
 
 .joinChatContainer h3 {
@@ -47,7 +50,7 @@ body {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
-  background: #43a047;
+  background: #128824;
   color: #fff;
   cursor: pointer;
 }
@@ -139,7 +142,7 @@ body {
 
 #other .message-content {
   justify-content: flex-start;
-  background-color: cornflowerblue;
+  background-color: #7711aa;
 }
 
 #other .message-meta {
