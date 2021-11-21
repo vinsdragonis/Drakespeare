@@ -63,6 +63,7 @@ body {
 .chat-window {
   width: 600px;
   height: 420px;
+  margin-bottom: 100px;
 }
 
 .chat-window p {
@@ -110,7 +111,7 @@ body {
   height: auto;
   min-height: 40px;
   max-width: 350px;
-  background-color: #43a047;
+  background-color: #138800;
   border-radius: 5px;
   color: white;
   display: flex;
@@ -143,7 +144,7 @@ body {
 
 #other .message-content {
   justify-content: flex-start;
-  background-color: #7711aa;
+  background-color: #003b59;
 }
 
 #other .message-meta {
