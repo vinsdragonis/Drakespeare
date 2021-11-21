@@ -5,7 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^12.8.3",
+    "@testing-library/user-event": "^13.5.0",
     "particles.js": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -16,7 +16,7 @@
     "socket.io-client": "^4.4.0",
     "tachyons": "^4.12.0",
     "tsparticles": "^1.37.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
