@@ -16,7 +16,7 @@
     "socket.io-client": "^4.4.0",
     "tachyons": "^4.12.0",
     "tsparticles": "^1.37.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
