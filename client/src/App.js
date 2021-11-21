@@ -5,7 +5,7 @@ import Chat from './components/Chat.js';
 import Navbar from './components/Navbar';
 import './App.css';
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://drakespeare.herokuapp.com/");
 
 const particlesOptions = {
   particles: {
