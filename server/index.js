@@ -12,7 +12,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://github.com/vinsdragonis/Drakespeare/tree/main/server",
+    origin: "https://drakespeare.netlify.app/",
     methods: ["GET", "POST"]
   }
 });
@@ -35,5 +35,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(PORT, () => {
-  console.log('Server started listening on port 3001');
+  console.log('Server started listening');
 });
