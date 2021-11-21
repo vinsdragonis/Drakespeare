@@ -30,7 +30,7 @@ function Chat({ socket, username, room }) {
   }, [socket]);
   
   return (
-    <div className="chat-window shadow-2">
+    <div className="chat-window shadow-5">
       <div className="chat-header">
         <p className="tl">🟢 Live Chat</p>
       </div>
@@ -40,7 +40,7 @@ function Chat({ socket, username, room }) {
             return (
               <div className="message" id={ username === messageContent.author ? "you" : "other" }>
                 <div>
-                  <div className="message-content shadow-3">
+                  <div className="message-content shadow-4">
                     <p>{ messageContent.message }</p>
                   </div>
                   <div className="message-meta">
