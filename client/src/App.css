@@ -91,7 +91,11 @@ body {
 .chat-window .chat-body {
   height: calc(450px - (45px + 70px));
   border: 1px solid #263238;
-  background: #414141;
+  background: rgb(152,27,255);
+  background: -moz-linear-gradient(90deg, rgba(152,27,255,0.5777661406359419) 33%, rgba(0,73,138,0.6029762246695554) 66%, rgba(0,211,255,0.3984944319524685) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(152,27,255,0.5777661406359419) 33%, rgba(0,73,138,0.6029762246695554) 66%, rgba(0,211,255,0.3984944319524685) 100%);
+  background: linear-gradient(90deg, rgba(152,27,255,0.5777661406359419) 33%, rgba(0,73,138,0.6029762246695554) 66%, rgba(0,211,255,0.3984944319524685) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#981bff",endColorstr="#00d3ff",GradientType=1);
   position: relative;
 }
 .chat-window .chat-body .message-container {
