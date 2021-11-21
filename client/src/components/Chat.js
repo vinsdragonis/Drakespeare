@@ -30,7 +30,7 @@ function Chat({ socket, username, room }) {
   }, [socket]);
   
   return (
-    <div className="chat-window shadow-5">
+    <div className="chat-window shadow-2">
       <div className="chat-header">
         <p className="tl">🟢 Live Chat</p>
       </div>
@@ -55,7 +55,7 @@ function Chat({ socket, username, room }) {
       </div>
       <div className="chat-footer">
         <input
-          type="text"
+          type="tex"
           value={ currentMessage }
           placeholder="Hey there!"
           onChange={(event) => {
