@@ -119,7 +119,7 @@ body {
   height: auto;
   min-height: 40px;
   max-width: 350px;
-  background-color: #138800;
+  background-color: #456500;
   border-radius: 5px;
   color: white;
   display: flex;
@@ -128,9 +128,28 @@ body {
   margin-left: 5px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   overflow-wrap: break-word;
   word-break: break-word;
   margin-bottom: 5px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #14A1A8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #005E63;
+}
+::-webkit-scrollbar-track{
+  background: #F0F0F0;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
 }
 
 #you {
