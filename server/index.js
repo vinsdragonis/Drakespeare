@@ -12,7 +12,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://drakespeare.netlify.app/",
+    origin: "*",
     methods: ["GET", "POST"]
   }
 });
