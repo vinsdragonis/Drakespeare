@@ -242,3 +242,10 @@ body {
 .hide {
   opacity: 0 !important;
 }
+
+@media (max-width: 768px) {
+  .chat-window {
+    width: 250px;
+    margin-bottom: 50px;
+  }
+}
