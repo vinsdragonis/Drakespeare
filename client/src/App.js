@@ -1,10 +1,23 @@
-import './App.css';
 import io from 'socket.io-client';
 import { useState } from 'react';
+import Particles from 'react-particles-js';
 import Chat from './components/Chat.js';
 import Navbar from './components/Navbar';
+import './App.css';
 
 const socket = io.connect("http://localhost:3001");
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 120,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+}
 
 function App() {
   const [username, setUsername] = useState("");
@@ -20,6 +33,9 @@ function App() {
   
   return (
     <div className="App">
+      <Particles className="particles"
+        params={ particlesOptions }
+      />
       <Navbar />
       { !showChat ? (
         <div className="joinChatContainer shadow-5 tc">
