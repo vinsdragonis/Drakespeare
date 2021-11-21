@@ -245,10 +245,10 @@ body {
 
 @media (max-width: 768px) {
   .chat-window {
-    width: 250px;
+    width: 300px;
     margin-bottom: 50px;
   }
   .chat-window .chat-footer button {
-    
+    margin-right: 30%;
   }
 }
