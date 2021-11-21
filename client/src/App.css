@@ -83,11 +83,15 @@ body {
   line-height: 45px;
 }
 
+.chat-window .chat-header p:nth-of-type(2) {
+  display: block;
+  padding: 0 0 0 300px;
+}
+
 .chat-window .chat-body {
   height: calc(450px - (45px + 70px));
   border: 1px solid #263238;
   background: #414141;
-
   position: relative;
 }
 .chat-window .chat-body .message-container {
