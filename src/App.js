@@ -2,6 +2,7 @@ import io from 'socket.io-client';
 import { useState } from 'react';
 import Particles from 'react-particles-js';
 import Chat from './components/Chat.js';
+import User from './components/User.js';
 import Navbar from './components/Navbar';
 import './App.css';
 
@@ -59,7 +60,10 @@ function App() {
           <button onClick={ joinRoom }>Join a room</button>
         </div>
       ) : (
-        <Chat socket={ socket } username={ username } room={ room }/>
+        <div>
+          <User socket={ socket } username={ username } room={ room }/>
+          <Chat socket={ socket } username={ username } room={ room }/>
+        </div>
       )}
     </div>
   );

@@ -6,6 +6,11 @@
   font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
   background: rgb(6,6,6);
   background: -moz-linear-gradient(90deg, rgba(6,6,6,1) 0%, rgba(31,31,31,1) 33%, rgba(61,61,61,1) 66%, rgba(89,89,89,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(6,6,6,1) 0%, rgba(31,31,31,1) 33%, rgba(61,61,61,1) 66%, rgba(89,89,89,1) 100%);
@@ -14,10 +19,10 @@
   text: white;
   background-repeat: repeat;
   background-size: auto;
-}
-body {
-  margin: 0%;
-  padding: 0%;
+  max-width: 100%;
+  max-height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
@@ -74,7 +79,7 @@ body {
 .chat-window {
   width: 600px;
   height: 420px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   border: 0 solid #000;
   border-radius: 15px;
 }
@@ -259,9 +264,22 @@ body {
   opacity: 0 !important;
 }
 
+.userDetails {
+  width: auto;
+  margin: 2px 7.5%;
+  padding-top: 20px;
+  background: #252525;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .chat-window {
     width: 300px;
     margin-bottom: 150px;
+  }
+  .userDetails {
+    display: none;
   }
 }
