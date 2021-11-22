@@ -75,6 +75,8 @@ body {
   width: 600px;
   height: 420px;
   margin-bottom: 100px;
+  border: 0 solid #000;
+  border-radius: 15px;
 }
 
 .chat-window p {
@@ -85,6 +87,8 @@ body {
   background: #263238;
   position: relative;
   cursor: pointer;
+  border: 0 solid #000;
+  border-radius: 15px 15px 0 0;
 }
 .chat-window .chat-header p {
   display: block;
@@ -139,6 +143,21 @@ body {
   overflow-wrap: break-word;
   word-break: break-word;
   margin-bottom: 5px;
+}
+
+.chat-window .chat-footer {
+  border: 0 solid #000;
+  border-radius: 0 0 15px 15px;
+}
+
+.chat-window .chat-footer input {
+  border: 0 solid #000;
+  border-radius: 0 0 0 15px;
+}
+
+.chat-window .chat-footer button {
+  border: 0 solid #000;
+  border-radius: 0 0 15px 0;
 }
 
 ::-webkit-scrollbar{
