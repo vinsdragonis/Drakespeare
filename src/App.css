@@ -97,10 +97,11 @@ body {
 .chat-window .chat-body {
   height: calc(450px - (45px + 70px));
   border: 1px solid #263238;
-  background-color: #555555;
+  background-color: #000000;
   opacity: 1;
-  background-image: radial-gradient(circle at center center, #494949, #555555), repeating-radial-gradient(circle at center center, #494949, #494949, 15px, transparent 30px, transparent 15px);
-  background-blend-mode: multiply;
+  background-image:  linear-gradient(#005b79 4.800000000000001px, transparent 4.800000000000001px), linear-gradient(90deg, #005b79 4.800000000000001px, transparent 4.800000000000001px), linear-gradient(#005b79 2.4000000000000004px, transparent 2.4000000000000004px), linear-gradient(90deg, #005b79 2.4000000000000004px, #000000 2.4000000000000004px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+  background-position: -4.800000000000001px -4.800000000000001px, -4.800000000000001px -4.800000000000001px, -2.4000000000000004px -2.4000000000000004px, -2.4000000000000004px -2.4000000000000004px;
   position: relative;
 }
 .chat-window .chat-body .message-container {
