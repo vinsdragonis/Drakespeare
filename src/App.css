@@ -266,11 +266,11 @@ body {
 
 .userDetails {
   width: auto;
-  margin: 2px 7.5%;
+  margin: 2px 10.5%;
   padding-top: 20px;
-  background: #252525;
+  /* background: #252525;
   border: 2px solid white;
-  border-radius: 15px;
+  border-radius: 15px; */
   margin-bottom: 20px;
 }
 
