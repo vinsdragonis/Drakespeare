@@ -22,6 +22,7 @@ body {
   max-width: 100%;
   max-height: auto;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
@@ -280,5 +281,8 @@ body {
   }
   .userDetails {
     display: none;
+  }
+  body {
+    overflow-y: visible;
   }
 }
