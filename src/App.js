@@ -1,9 +1,9 @@
 import io from 'socket.io-client';
 import { useState } from 'react';
 import Particles from 'react-particles-js';
-import Chat from './components/Chat.js';
-import User from './components/User.js';
-import Navbar from './components/Navbar';
+import Chat from './components/Chat/Chat.js';
+import User from './components/User/User.js';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
 const socket = io.connect("https://drakespeare.herokuapp.com/");
@@ -24,14 +24,14 @@ function App() {
   const [username, setUsername] = useState("");
   const [room, setRoom] = useState("");
   const [showChat, setShowChat] = useState(false);
-  
+
   const joinRoom = () => {
     if (username !== "" && room !== "") {
       socket.emit("join_room", room);
       setShowChat(true);
     }
   }
-  
+
   return (
     <div className="App">
       <Particles className="particles"
