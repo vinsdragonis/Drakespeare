@@ -11,10 +11,10 @@ const socket = io.connect("https://drakespeare.herokuapp.com/");
 const particlesOptions = {
   particles: {
     number: {
-      value: 120,
+      value: 150,
       density: {
         enable: true,
-        value_area: 800
+        value_area: 1500
       }
     }
   }
