@@ -9,7 +9,7 @@ const Navbar = () => {
       }}
     >
         <div>
-          <h1 className="f2 orange grow dim b underline-hover pa2 br3 pointer" style={{paddingLeft: "20px"}}>DRAKESPEARE</h1>
+          <h1 className="f2 orange grow b underline-hover dim pa2 br3 pointer" style={{paddingLeft: "20px"}}>DRAKESPEARE</h1>
         </div>
       </nav>
     </div>
