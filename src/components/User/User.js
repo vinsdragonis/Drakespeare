@@ -8,7 +8,7 @@ function User({ socket, username, room }) {
         style={{
           marginTop:"0",
           paddingLeft:"15px",
-          paddingBottom:"10px",
+          paddingBottom:"25px",
           width:"500px"
         }}
       >
