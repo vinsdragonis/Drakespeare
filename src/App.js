@@ -1,22 +1,12 @@
 import io from 'socket.io-client';
 import { useState } from 'react';
-import Particles from 'react-tsparticles';
 import Chat from './components/Chat/Chat.js';
 import User from './components/User/User.js';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 const socket = io.connect("https://drakespeare.herokuapp.com/");
-
-const particlesOptions = {
-  number: {
-    value: 100,
-    density: {
-      enable: true,
-      value_area: 800
-    }
-  }
-}
 
 function App() {
   const [username, setUsername] = useState("");
@@ -60,6 +50,7 @@ function App() {
           <Chat socket={ socket } username={ username } room={ room }/>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
