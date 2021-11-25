@@ -6,7 +6,7 @@ function User({ socket, username, room }) {
       <div
         className="userDetails"
         style={{
-          marginTop:"10px",
+          marginTop:"0",
           paddingLeft:"15px",
           paddingBottom:"25px",
           width:"500px"
