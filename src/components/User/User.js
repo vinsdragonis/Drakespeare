@@ -8,7 +8,7 @@ function User({ socket, username, room }) {
         style={{
           marginTop:"0",
           paddingLeft:"15px",
-          paddingBottom:"25px",
+          paddingBottom:"10px",
           width:"500px"
         }}
       >
@@ -51,7 +51,10 @@ function User({ socket, username, room }) {
             marginRight:"25px"
           }}
         >
-          <span style={{ color:"lime" }}>Joined at:</span> { new Date(Date.now()).getHours() + ":" + new Date(Date.now()).getMinutes() }</p>
+          <span style={{ color:"lime" }}>
+            Joined at:
+          </span>
+          { new Date(Date.now()).getHours() + ":" + new Date(Date.now()).getMinutes() }</p>
       </div>
     </div>
   );

@@ -267,15 +267,16 @@ body {
 .userDetails {
   width: auto;
   margin: 2px 8%;
-  padding-top: 10px;
+  padding-top: 5px;
   /* background: #252525;
   border: 2px solid white;
   border-radius: 15px; */
   margin-bottom: 10px;
 }
 
-./footer-link {
+.footer-link {
   text-decoration: none;
+  margin-bottom: 55px;
 }
 
 @media (max-width: 768px) {
