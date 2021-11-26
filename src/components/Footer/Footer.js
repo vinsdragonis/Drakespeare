@@ -17,6 +17,7 @@ const Footer = () => {
             }}
             href="https://vinsdragonis.github.io/"
             target="_blank"
+            rel="noreferrer"
           >
             COPYRIGHT © VINEETH B V
           </a>

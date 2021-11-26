@@ -17,12 +17,14 @@ function createWindow() {
   })
 
   win.loadURL(
-    isDev
-      ? 'http://localhost:3000'
-      : `file://${path.join(__dirname, '../build/index.html')}`
+    // isDev
+    //   ? 'http://localhost:3000'
+    //   : `file://${path.join(__dirname, '../build/index.html')}`
+    "https://drakespeare.netlify.app/"
   )
-  
+
   win.webContents.openDevTools()
+  process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
 }
 
 app.on('ready', createWindow)
