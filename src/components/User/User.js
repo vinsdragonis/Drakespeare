@@ -1,6 +1,16 @@
 import React from 'react';
 
 function User({ socket, username, room }) {
+  const getTime = () => {
+    var currentHours = new Date(Date.now()).getHours();
+    var currentMinutes = new Date(Date.now()).getMinutes();
+
+    currentHours = ("0" + currentHours).slice(-2);
+    currentMinutes = ("0" + currentMinutes).slice(-2);
+
+    return " " + currentHours + ":" + currentMinutes;
+  }
+
   return (
     <div>
       <div
@@ -54,7 +64,7 @@ function User({ socket, username, room }) {
           <span style={{ color:"lime" }}>
             Joined at:
           </span>
-          { new Date(Date.now()).getHours() + ":" + new Date(Date.now()).getMinutes() }</p>
+          { getTime() }</p>
       </div>
     </div>
   );
