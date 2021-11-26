@@ -24,8 +24,10 @@ function createWindow() {
     "https://drakespeare.netlify.app/"
   )
 
-  win.webContents.openDevTools()
+  win.webContents.openDevTools();
   process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
+
+  win.setMenu(null);
 }
 
 app.on('ready', createWindow)
