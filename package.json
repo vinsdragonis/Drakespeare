@@ -18,7 +18,7 @@
     "react-particles-js": "^3.6.0",
     "react-scripts": "4.0.3",
     "react-scroll-to-bottom": "^4.2.0",
-    "react-tsparticles": "^1.37.4",
+    "react-tsparticles": "^1.37.5",
     "socket.io-client": "^4.4.0",
     "tachyons": "^4.12.0",
     "tsparticles": "^1.37.4",
