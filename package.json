@@ -18,10 +18,10 @@
     "react-particles-js": "^3.6.0",
     "react-scripts": "4.0.3",
     "react-scroll-to-bottom": "^4.2.0",
-    "react-tsparticles": "^1.37.4",
+    "react-tsparticles": "^1.37.5",
     "socket.io-client": "^4.4.0",
     "tachyons": "^4.12.0",
-    "tsparticles": "^1.37.4",
+    "tsparticles": "^1.37.5",
     "wait-on": "^6.0.0",
     "web-vitals": "^2.1.2"
   },
@@ -70,7 +70,7 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
-    "electron": "^11.2.1",
+    "electron": "^16.0.3",
     "electron-builder": "^22.14.5",
     "prettier": "^2.5.0",
     "wait-on": "^5.2.1"
