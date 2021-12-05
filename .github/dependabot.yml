@@ -5,7 +5,15 @@
 
 version: 2
 updates:
+
+## Maintain dependencies for client
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+# Maintain dependencies for server
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/server" # Location of package manifests
     schedule:
       interval: "daily"
