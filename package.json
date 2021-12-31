@@ -15,7 +15,6 @@
     "particles.js": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-particles-js": "^3.6.0",
     "react-scripts": "5.0.0",
     "react-scroll-to-bottom": "^4.2.0",
     "react-tsparticles": "^1.38.0",
